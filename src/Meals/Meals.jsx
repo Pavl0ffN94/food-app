@@ -4,10 +4,10 @@ import {PromoText} from './PromoText';
 
 const MealsImpl = () => {
   return (
-    <>
+    <React.Fragment>
       <PromoText />
       <MealList />
-    </>
+    </React.Fragment>
   );
 };
 

@@ -8,6 +8,7 @@ const MealListImpl = () => {
   const mealList = DUMMY_MEALS.map(meal => (
     <MealItem
       key={meal.id}
+      id={meal.id}
       title={meal.name}
       price={meal.price}
       description={meal.description}
